@@ -225,7 +225,7 @@ button {
     transform: rotateX(1000px'angle');
 }
 .footer-nav li a:hover {
-    background-color: var(--footer-bg);
+    background-color: var(--btn-color);
     color: var(--text-color);
 }
 .footer-bottom {
