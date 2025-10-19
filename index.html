@@ -171,25 +171,6 @@
                 content.classList.contains('open') ? "Hide Info" : "Show Info";
         });
     });
-
-    const toggleswitch = document.getElementById('theme-switch');
-    const body = document.body;
-
-    if (localStorage.getitem('theme') === 'dark') {
-        body.classList.add('dark-theme');
-        toggleswitch.checked = true;
-    }
-    
-    toggleswitch.addEventListener('change',  () => {
-        if (toggleswitch.checked){
-            body.classList.add('dark-theme');
-            localStorage.setitem('theme', 'dark');
-        }
-        else {
-            body.classList.remove('dark-theme');
-            localStorage.setItem('theme','light');
-        }
-    });
     </script>
 </body>
 </html>
